@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">上帝之爪</string>
+    <string name="BeginDeel">开始发牌</string>
+    <string name="StopDeel">重新开始</string>
+    <string name="EndGame">结束游戏</string>
+
+    <string name="God">神</string>
+    <string name="jinyan">禁言长老</string>
+    <string name="xiujian">锈剑骑士</string>
+    <string name="qianxing">潜行者</string>
+    <string name="shouwei">守卫</string>
+    <string name="yexiong">野熊</string>
+    <string name="nvwu">女巫</string>
+    <string name="yuyan">预言家</string>
+    <string name="lieren">猎人</string>
+    <string name="baichi">白痴</string>
+    <string name="zhanglao">长老</string>
+
+    <string name="people">民</string>
+    <string name="cunmin">村民</string>
+
+    <string name="wolf">狼</string>
+    <string name="daozei">盗贼</string>
+    <string name="qiubi">丘比特</string>
+    <string name="yehai">野孩子</string>
+    <string name="langren">狼人</string>
+    <string name="bailang">白狼王</string>
+
+    <string name="fail">序号:\n加载错误</string>
+
+    <string name="copyright">Copyright © 2017 Nbucedog. All rights reserved.</string>
+</resources>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html charset=utf-8"/>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+	<title>上帝之爪</title>
+	<style type="text/css">
+		#div_main{
+			padding-top: 30px;
+			background: url(div_back.jpg) no-repeat;
+			height: 610px;
+			background-size: 100%;
+		}
+		#text_input{
+			margin-top: 40px;
+			height: 150px;
+			width: 150px;
+			font-size: 20px;
+			color: #8B8B8B;
+			opacity: 0.7;
+		}
+		#sub_input{
+			padding: 0;
+			margin-top: 10px;
+			height: 80px;
+			width: 150px;
+			font-size: 40px;
+			opacity: 0.8;
+		}
+		ul{
+			padding: 0;
+			text-align: center;
+		}
+		li{
+			padding: 0;
+			list-style-type:none;
+		}
+		input{
+			text-align: center;
+			vertical-align: middle;
+		}
+		body{
+			margin: 0;
+			border: 0;
+		}
+	</style>
+    <!--<link rel="stylesheet" href="index.css"  type="text/css"/>-->
+    <!--<script type="text/javascript" src="index.js"></script>-->
+    <script type="text/javascript">
+    	function input_focus(el){
+			if(el.value=='点击输入序号'){
+				el.value='';
+				el.style.color="black";
+				el.style.fontSize=110+'px';
+			}
+		}
+		function input_blur(el){
+			if(el.value==''){
+				el.value='点击输入序号';
+				el.style.color="#8B8B8B";
+				el.style.fontSize=20+'px';
+			}
+		}
+    </script>
+</head>
+
+<body>
+	<div id="div_main">
+		<form method="get" action="hehe.html">
+			<ul>
+				<li>
+					<input id="text_input" type="text" name="text" value="点击输入序号" onfocus="input_focus(this)" onblur="input_blur(this)"/>
+				</li>
+				<li>
+					<input id="sub_input" type="submit" value="看牌"/>
+				</li>
+				
+			</ul>
+		</form>
+	</div>
+	
+</body>
+
+</html>
